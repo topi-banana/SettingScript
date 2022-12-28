@@ -10,6 +10,6 @@ sudo echo "network:
         elecom-45f753:
           password: u5ifkijnc45r
       dhcp4: false
-" > /etc/netplan/00-installer-config-wifi.yaml
+" | sudo tee /etc/netplan/00-installer-config-wifi.yaml
 
 sudo netplan apply
