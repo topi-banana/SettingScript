@@ -1,1 +1,1 @@
-curl https://raw.githubusercontent.com/apple-pi-yhhhh/SettingScript/main/source/language.sh | bash
+curl https://raw.githubusercontent.com/apple-pi-yhhhh/SettingScript/main/language.sh | bash
