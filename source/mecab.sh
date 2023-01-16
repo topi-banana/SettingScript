@@ -1,1 +1,2 @@
-sudo apt install -y python3-pip mecab libmecab-dev mecab-ipadic-utf8
+sudo apt install -y python3-pip
+sudo apt install -y mecab libmecab-dev mecab-ipadic-utf8
