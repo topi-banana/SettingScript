@@ -1,0 +1,8 @@
+cd ~/.ssh
+ssh-keygen -t rsa
+echo "############# ここから下を　(https://github.com/settings/ssh) ここにコピペ #############"
+cat ~/.ssh/id_rsa.pub
+echo "#####################################################################################"
+
+# 終わったらこれ
+ssh -T git@github.com
