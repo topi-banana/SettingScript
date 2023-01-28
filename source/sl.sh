@@ -1,4 +1,1 @@
-while true
-do
-  sl
-done
+while :;do sl;done
