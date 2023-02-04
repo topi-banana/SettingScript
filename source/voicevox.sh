@@ -1,4 +1,5 @@
-sudo apt install p7zip
-sudo apt install libsndfile1
+wget https://raw.githubusercontent.com/apple-pi-yhhhh/SettingScript/main/source/voicevox_cpu.tar.xz
+tar -Jxvf voicevox_cpu.tar.xz
+rm voicevox_cpu.tar.xz
 
-curl https://voicevox.hiroshiba.jp/static/a65b7d90481ecb5fc64aa685b74e82da/linuxInstallCpu.sh | bash
+sudo apt install libsndfile1
